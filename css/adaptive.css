@@ -129,7 +129,8 @@
         gap: 30px;
     }
     .section-comments {
-        margin: 200px 0;
+        margin-top: 200px;
+        height: 500px;
     }
     .carousel-item__text{
         font-size: 24px;
@@ -137,8 +138,14 @@
     .section-comments__image{
         width: 120px;
     }
-    .section-comments{
-        height: 300px;
+    .section-comments h2{
+        font-size: 60px;
+    }
+    .section-comments-wrapper {
+        width: 750px;
+    }
+    .section-quote{
+        margin-top: 50px;
     }
     .sectio-quote-wrapper {
         max-width: 670px;
@@ -509,6 +516,15 @@
     .section-comments__image {
         width: 70px;
     }
+    .section-comments h2 {
+        font-size: 50px;
+    }
+    .section-comments {
+        height: 300px;
+    }
+    .section-comments-wrapper {
+        width: 550px;
+    }
     .carousel-item__text-autor {
         font-family: 'Oswald';
         font-size: 20px;
@@ -536,6 +552,9 @@
     }
     .section-contacts .container {
         transform: scale(0.8);
+    }
+    .section-contacts {
+        margin: 60px 0;
     }
     input::placeholder{
         font-size: 15px;
@@ -819,6 +838,15 @@
         font-size: 30px;
         letter-spacing: -3px;
         margin: 80px 0px 50px 110px;
+    }
+    .section-comments h2 {
+        font-size: 35px;
+    }
+    .section-comments {
+        margin: 250px 0;
+    }
+    .section-comments-wrapper {
+        width: 350px;
     }
     .carousel-item__text-autor {
         font-family: 'Oswald';
